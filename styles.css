@@ -1,1 +1,78 @@
-/* Copy and paste your CSS from CodePen into here */
+:root {
+  --color-a: #31a;
+  --color-b: black;
+}
+
+main {
+  background-color: white;
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+  font-family: Inter;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  border: 2px;
+  border-style: solid;
+  border-width: medium;
+  border-color: var(--color-a);
+}
+
+h1, h2, h3, h4 {
+  font-family: Aboreto, Ariel;
+  color: var(--color-a);
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: var(--color-b);
+  padding: 10px;
+}
+
+form {
+  color: var(--workAnswer);
+}
+
+.center {
+  text-align: center;
+}
+
+#img-caption {
+  margin-top: -15px;
+}
+
+#tribute-info {
+}
+
+#bibliography {
+  padding: 0px 20px 0px 10px;
+  text-align: left;
+}
+
+#popquiz {
+  font-family: Inter, Arial;
+}
+
+#popquiz h3 {
+  font-family: Inter;
+}
+
+/* wrong quiz answers */
+#no:checked+label, #restaurant:checked+label, #museum:checked+label, #transparent:checked+label, #reliable:checked+label { color: red; }
+
+/* right quiz answers */
+#yes:checked+label, #wtf:checked+label, #lifeless:checked+label, #bank:checked+label { color: green;}
+
+
+
+
+
+

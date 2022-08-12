@@ -1,12 +1,90 @@
 <!DOCTYPE html>
-
 <html>
-  <head>
-    <title>My awesome tribute page mofos</title>
-    <!-- The line below links your html document to your css stylesheet -->
-    <link rel="stylesheet" href="styles.css" />
-  </head>
+  <header>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Aboreto" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet" type="text/css">
+  </header>
+
   <body>
-    <!-- Copy and paste your HTML from CodePen into here -->
+   <main id="main">
+    <h1 id="title"> Alan Watts - Spiritual Rebel and Unrepentant Pipe Smoker </h1>
+    <div id="img-div">
+      <img src="https://upload.wikimedia.org/wikipedia/en/9/97/Alan_Watts.png" id="image" alt="Alan Watts smoking his pipe" >
+      <div id="img-caption"><p>"Pipe Smokers Live Longer"<p></div>
+      <hr>
+      <section id="tribute-info">
+        <h2>Alan Watts - Zen Master</h2>
+        <p> Alan Watts was, among other things, a brilliant speaker and intellectual mind who came to prominence in the 1950s and '60s.  This was in part thanks to a series of popular radio talks given in San Francisco, the first entitled "The Great Books Of Asia" and the second "Way Beyond The West".  During his lifetime he wrote 25 books on philosophy, mysticism and religion.  Since his death in 1973 he has had another 40 published and his popularity has continued to grow through audio recordings on YouTube and Spotify.</p>
+        <p>Alan Watts began his career as an Episcopal priest but found his parishioners to be more interested in cultivating a feeling of safety through repetition and tradition than genuinely looking to expand their consciousnesses. He left the priesthood in order to continue his studies without rocking the boat.</p>
+        <p>Alan was also a man who had serious trouble with alcoholism which hastened his death.  He also had a penchant for sleeping with young college girls who attended his lectures which caused the end of his marriage.</p>
+        More information about the illustrious bad boy Mr. Watts can be found <a id="tribute-link" href="https://alanwatts.org/" target="_blank">here</a>
+      </section>
+    </div>
+    <hr>
+    <section id="bibliography">
+      <h2 class="center">A Bibliography</h2>
+      <ul>
+        <li>1932 — An Outline of Zen Buddhism [booklet]</li>
+        <li>1936 — Seven Symbols of Life: Being an Essay on Eternal Verities as Expressed in the Images of the Lotus, of Water, Wind, Fire, Man, Woman, and Child [booklet]</li>
+        <li>1936 — The Spirit of Zen: A Way of Life, Work, and Art in the Far East</li>
+        <li>1937 — The Legacy of Asia and Western Man: A Study of the Middle Way</li>
+        <li>1939 — The Psychology of Acceptance: The Reconciliation of the Opposites in Eastern Thought and in Analytical Psychology [booklet]</li>
+        <li>1940 — The Meaning of Happiness: The Quest for Freedom of the Spirit in Modern Psychology and the Wisdom of the East</li>
+        <li>1944 — Theologia Mystica: Being the Treatise of Saint Dionysius, Pseudo-Areopagite, on Mystical Theology, Together with the First and Fifth Epistles [booklet]</li>
+        <li>1946 — The Meaning of Priesthood [booklet]</li>
+        <li>1947 — Behold the Spirit: A Study in the Necessity of Mystical Religion</li>
+        <li>1947 — Zen Buddhism: A New Outline and Introduction [booklet republished in 1948 as Zen]</li>
+        <li>1948 — Zen [enlarged republication of Zen Buddhism (1947)]</li>
+        <li>1950 — Easter: Its Story and Meaning</li>
+        <li>1950 — The Supreme Identity: An Essay on Oriental Metaphysic and the Christian Religion</li>
+        <li>1951 — The Wisdom of Insecurity: A Message for an Age of Anxiety</li>
+        <li>1953 — Myth and Ritual in Christianity</li>
+        <li>1955 — The Way of Liberation in Zen Buddhism [original booklet, published by the American Academy of Asian Studies]</li>
+        <li>1957 — The Way of Zen</li>
+        <li>1958 — Nature, Man, and Woman</li>
+        <li>1959 — Beat Zen, Square Zen, and Zen</li>
+        <li>1960 — This Is It: And Other Essays on Zen and Spiritual Experience</li>
+        <li>1961 — Psychotherapy East and West</li>
+        <li>1962 — The Joyous Cosmology: Adventures in the Chemistry of Consciousness</li>
+        <li>1963 — The Two Hands of God: The Myths of Polarity</li>
+        <li>1964 — Beyond Theology: The Art of Godmanship</li>
+        <li>1965 — The “Deep-in” View: A Conversation with Alan Watts [booklet]</li>
+        <li>1966 — The Book: On the Taboo Against Knowing Who You Are</li>
+        <li>1967 — Nonsense</li>
+        <li>1968 — Cloud-Hidden, Whereabouts Unknown: A Mountain Journal</li>
+        <li>1970 — Does it Matter? Essays on Man&#8217;s Relation to Materiality</li>
+        <li>1971 — Erotic Spirituality: The Vision of Konarak</li>
+        <li>1972 — In My Own Way: An Autobiography, 1915-1965</li>
+        <li>1971 — The Theologia Mystica of Saint Dionysius [New and revised booklet: Alan Watts Journal]</li>
+        <li>1972 — The Art of Contemplation: A Facsimile Manuscript with Doodles</li>
+        <li>1972 — The Way of Liberation in Zen Buddhism [second edition booklet: Alan Watts Journal]</li>
+        <li>1973 — Tao: The Watercourse Way [completed by Al Chung-liang Huang]</li>
+      </ul>
+    </section>
+    <hr>
+    <section id="popquiz">
+      <h2> Take a quiz on the quirks of Alan Watts' personality </h2>
+      <form>
+        <h3> Alan Watts once worked at a:</h3>
+        <!-- input can't be nested inside label or the selector doesn't work... not sure why -->
+        <input type="radio" id="restaurant" name="work"> <label for="restaurant"> Restaurant </label>
+        <input type="radio" id="bank" name="work"> <label for="bank">  Bank </label>
+        <input type="radio" id="museum" name="work"><label for="cafe"> Museum </label>
+      </form>
+      <form>
+        <h3> Complete this AW quote:</h3><h4>"The more a thing tends to be permanent the more it tends to be... "</h4>
+        <input type="radio" id="transparent" name="work"> <label for="transparent"> Transparent </label>
+        <input type="radio" id="reliable" name="work"> <label for="reliable">  Reliable </label>
+        <input type="radio" id="lifeless" name="work"><label for="lifeless"> Lifeless </label>
+      </form>
+      <form>
+        <h3> Is Alan Watts a "Spiritual Gnu"?</h3>
+        <input type="radio" id="yes" name="work"> <label for="restaurant"> Yes, absolutely. </label>
+        <input type="radio" id="no" name="work"> <label for="bank">  Certainly not. </label>
+        <input type="radio" id="wtf" name="work"><label for="cafe"> A what now? </label>
+      </form>
+    </section>
+    </main>
   </body>
 </html>
