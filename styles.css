@@ -32,6 +32,7 @@ hr {
   margin-bottom: 20px;
 }
 
+
 h3 {
   color: var(--color-b);
   padding: 10px;
@@ -54,7 +55,12 @@ form {
 
 #bibliography {
   padding: 0px 20px 0px 10px;
+  text-align: center;
+}
+
+#bibliography ul {
   text-align: left;
+  display: inline-block;
 }
 
 #popquiz {
