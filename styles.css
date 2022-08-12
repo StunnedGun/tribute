@@ -1,14 +1,17 @@
 :root {
   --color-a: #31a;
   --color-b: black;
+  --color-c: white;
+  --color-d: green;
+  --color-e: red;
 }
 
 main {
-  background-color: white;
+  background-color: var(--color-c);
   padding: 10px;
   margin: 20px;
   text-align: center;
-  font-family: Inter;
+  font-family: Inter, Ariel;
 }
 
 img {
@@ -49,6 +52,7 @@ form {
 }
 
 #tribute-info {
+  margin: 40px;
 }
 
 #bibliography {
@@ -66,14 +70,14 @@ form {
 }
 
 #popquiz h3 {
-  font-family: Inter;
+  font-family: Inter, Arial;
 }
 
 /* wrong quiz answers */
-#no:checked+label, #restaurant:checked+label, #museum:checked+label, #transparent:checked+label, #reliable:checked+label { color: red; }
+#no:checked+label, #restaurant:checked+label, #museum:checked+label, #transparent:checked+label, #reliable:checked+label { color: var(--color-e); }
 
 /* right quiz answers */
-#yes:checked+label, #wtf:checked+label, #lifeless:checked+label, #bank:checked+label { color: green;}
+#yes:checked+label, #wtf:checked+label, #lifeless:checked+label, #bank:checked+label { color: var(--color-d); }
 
 
 
